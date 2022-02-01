@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     text: {
         fontSize: 18,
         fontFamily: 'OpenSans-Bold',
-        color: "#212121",
+        color: "#FFF",
     }
 });
 

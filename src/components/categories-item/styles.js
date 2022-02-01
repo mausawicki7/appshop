@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     },
     containerTouchable: {
         flex: 1,
-        borderRadius: 6,
+        borderRadius: 10,
         shadowColor: 'black',
         shadowOpacity: 0.26,
         shadowOffset: { width: 0, height: 2 },
@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'OpenSans-Bold',
         fontSize: 18,
+        color: 'white',
     }
   });
 

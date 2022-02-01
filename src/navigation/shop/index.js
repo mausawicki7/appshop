@@ -15,7 +15,7 @@ const ShopStackNavigation = () => {
             initialRouteName='Categories'
             screenOptions={{
                 headerStyle: {
-                    backgroundColor: Platform.OS === 'android' ? COLORS.primary : '',
+                    backgroundColor: Platform.OS === 'android' ? COLORS.oxfordblue : '',
                 },
                 headerTintColor: Platform.OS === 'android' ? 'white' : COLORS.primary,
                 headerTitleStyle: {
@@ -23,7 +23,10 @@ const ShopStackNavigation = () => {
                 }
             }}
         >
-            <Stack.Screen name="Categories" component={Categories} />
+            <Stack.Screen name="Categories" 
+            component={Categories}
+            options ={{ title: 'Categorías'}} />
+            
             <Stack.Screen 
                 name="Products"
                 component={Products}

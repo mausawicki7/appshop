@@ -14,7 +14,7 @@ const AppNavigation = () => {
                 headerShown: false,
             }}>
                 <BottomTabs.Screen
-                    name='Shop'
+                    name='Tienda'
                     component={ShopStackNavigation} 
                     options={{
                         tabBarIcon: ({ focused }) => (
@@ -24,7 +24,7 @@ const AppNavigation = () => {
                         
                 />
                 <BottomTabs.Screen
-                    name='Cart'
+                    name='Carrito'
                     component={CartStackNavigation}
                     options={{
                         tabBarIcon: ({ focused }) => (

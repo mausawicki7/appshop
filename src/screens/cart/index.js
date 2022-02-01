@@ -29,7 +29,7 @@ const Cart = () => {
             </View>
             <View style={styles.footer}>
                 <TouchableOpacity style={styles.confirm} onPress={() => handleConfirm()}>
-                    <Text>Confirmar</Text>
+                    <Text style ={{ fontWeight: 'bold', color: '#FFF'}}>Confirmar</Text>
                     <View style={styles.total}>
                         <Text style={styles.text}>Total:</Text>
                         <Text style={styles.text}>${total}</Text>
